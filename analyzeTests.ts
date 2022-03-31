@@ -1,5 +1,5 @@
 var fs = require('fs');
-var files = fs.readdirSync('./testResultJson/');
+var files = fs.readdirSync('./testResult/testResultJson/');
 
 const result = {
   totalRuns: 0,
